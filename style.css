@@ -111,7 +111,7 @@ align-items: center;
     color: #676767;
 }
 .my-recipies p{
-    padding-bottom: 30px;
+
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400 ;
@@ -125,21 +125,23 @@ align-items: center;
     align-items: center;
 }
 .card-container{
-    margin: 50px;
+    margin: 80px 0;
+    width: 1200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .card{
     width: 300px;
     padding: 15px;
-    margin: 0 20px;
-    border-radius:25px;
+
+    border-radius:30px;
     box-shadow: 0px 0px 40px #888888;
 }
 .card img{
     width: 100%;
-    border-radius: 30px;
+    border-radius: 20px;
     margin-bottom: 40px;
 }
 .card h3{
@@ -151,11 +153,33 @@ align-items: center;
     line-height: 40px;
 }
 .card p{
-
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400 ;
     color: #18191F;
     line-height: 32px;
-
+}
+.social{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    border-radius:30px;
+    box-shadow: 0px 0px 40px #888888;
+}
+.social div{
+    padding: 20px 50px;
+}
+.social h2{
+    color: #18191F;
+    line-height: 64px;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700 ;
+}
+.social p{
+    color: #18191F;
+    line-height: 26px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400 ;
 }
